@@ -1,9 +1,112 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="dc3MCYZ66mMQCnRyDoYk">
-    <mxGraphModel>
+    <mxGraphModel dx="1193" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DP50V5Eigot5s7-S_dGX-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-4" value="1=&amp;gt;n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-5" target="DP50V5Eigot5s7-S_dGX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-5" value="输入a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-7" target="DP50V5Eigot5s7-S_dGX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-39" value="N" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-7">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="405" />
+              <mxPoint x="480" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-7" value="a&amp;gt;max" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-8" target="DP50V5Eigot5s7-S_dGX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-8" value="n≥10" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="250" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-9" target="DP50V5Eigot5s7-S_dGX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-9" value="a=&amp;gt;max" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-10" value="n+1=n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-11" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-12" value="输入max" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-16" target="DP50V5Eigot5s7-S_dGX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-16" value="输出max" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-4" target="DP50V5Eigot5s7-S_dGX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-12" target="DP50V5Eigot5s7-S_dGX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="560" />
+              <mxPoint x="400" y="580" />
+              <mxPoint x="330" y="580" />
+              <mxPoint x="330" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="DP50V5Eigot5s7-S_dGX-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Y" Y="Y" id="DP50V5Eigot5s7-S_dGX-36">
+          <mxCell style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-8" target="DP50V5Eigot5s7-S_dGX-16">
+            <mxGeometry x="-0.16" width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="460" y="270" as="sourcePoint" />
+              <mxPoint x="380" y="620" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="510" y="275" />
+                <mxPoint x="510" y="405" />
+                <mxPoint x="510" y="590" />
+                <mxPoint x="400" y="590" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="DP50V5Eigot5s7-S_dGX-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DP50V5Eigot5s7-S_dGX-3" target="DP50V5Eigot5s7-S_dGX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
